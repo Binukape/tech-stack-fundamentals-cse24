@@ -465,7 +465,7 @@ jobs:
           """
           
           for i, result in enumerate(sorted_results, 1):
-              grade_emoji = {'A': '🌟', 'B': '✨', 'C': '👌', 'D': '📝', 'F': '🔨'}
+              grade_emoji = {'A': '🔥', 'B': '✨', 'C': '👌', 'D': '📝', 'F': '🔨'}
               emoji = grade_emoji.get(result['grade'], '❓')
               title = get_title(i, result['grade'])
               
